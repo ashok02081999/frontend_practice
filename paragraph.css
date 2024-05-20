@@ -1,0 +1,12 @@
+.class_one{
+   background: linear-gradient(45deg,red,blue);
+   box-shadow: boxshowdow 10px;
+}
+.class_two{
+   background: linear-gradient(45deg,green,aqua);
+   box-shadow: boxshowdow 20px;
+}
+.class_three{
+   background: linear-gradient(45deg,pink,orange);
+   box-shadow: boxshowdow 30px;
+}
