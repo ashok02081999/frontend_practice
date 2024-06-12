@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Prime</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a{
+            color: red;
+
+        }
+        .dropdown{
+            display: inline-block;
+        }
+        .dropdown1{
+            display: inline-block;
+        }
+        .dropdown2{
+            display: inline-block;
+        }
+        .dropdown-content{
+            display: none;
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a{
+            
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover{
+           background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prime Video</h1>
+        <nav>
+            <div class="dropdown">
+                <a href="#">Home</a>
+                <div class="dropdown-content">
+                    <a href="#">All</a>
+                    <a href="#">Movies</a>
+                    <a href="#">TV shows</a>
+               </div>
+            </div>
+            
+            <div class="dropdown1">
+                <a href="#">Store</a>
+                <div class="dropdown-content">
+                    <a href="#">All</a>
+                    <a href="#">Rent</a>
+                    <a href="#">Channels</a>
+                </div>
+            </div>
+            <div class="dropdown2">
+                <a href="#">Live Tv</a>
+                <div class="dropdown-content">
+                    <a href="#">gemini</a>
+                    <a href="#">maa</a>
+                    <a href="#">ZEE</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
